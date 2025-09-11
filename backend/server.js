@@ -5,6 +5,7 @@ import pkg from "pg";
 import bcrypt from "bcryptjs";
 import jwt from "jsonwebtoken";
 import nodemailer from "nodemailer";
+import authRoutes from "./routes/auth.js"; 
 
 dotenv.config();
 const { Pool } = pkg;
